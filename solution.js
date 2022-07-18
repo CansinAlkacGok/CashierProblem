@@ -19,7 +19,7 @@ class Cashier {
         this.price = price;
         this.returnAmount;
 
-        //Since I saw before Cashier Register project in FreeCodeCamp I know that I should create an arrays of array to check and return my output with notes after. I created my notes according to expected output in readme file.
+        // I should create an arrays of array to check and return my output with notes after. I created my notes according to expected output in readme file.
 
         this.notes = [[200, 'Two Hundred Euro Notes'], [100, 'One Hundred Euro Note'], [50, 'Fifty Euro Notes'], [20, 'Twenty Euro Notes'], [10, 'Ten Euro Notes'], [5, 'Five Euro Notes'], [2, 'Two Euro'], [1, 'One Euro'], [0.5, 'Fifty Cents Coin'], [0.2, 'Twenty Cents Coin'], [0.1, 'Ten Cents Coin'], [0.05, 'Five Cents Coin'], [0.02, 'Two Cents Coin'], [0.01, 'One Cent Coin']];
 
@@ -51,7 +51,7 @@ class Cashier {
             }
         }
 
-        if (this.returnAmount < 0) console.log(`You need to pay €${Math.abs(this.returnAmount)} more.`); // we also need to add a conditon if our paid amount is less then the price. So this condition is for the case that we don't have return amount but credit.      
+        if (this.returnAmount < 0) console.log(`You need to pay €${Math.abs(this.returnAmount)} more.`); // we also need to add a condition if our paid amount is less then the price. So this condition is for the case that we don't have return amount but credit.      
 
     }
 }
